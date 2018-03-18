@@ -16,3 +16,5 @@ C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\Bilg
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.csproj.CoreCompileInputs.cache
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.exe
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.StockManagement.dll
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.StockManagement.pdb

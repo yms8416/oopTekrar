@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.OOP.Generics", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.OOP.GenericsConsole", "BilgeAdam.OOP.GenericsConsole\BilgeAdam.OOP.GenericsConsole.csproj", "{94458C60-B326-4D11-8141-351899F7635E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilgeAdam.OOP.StockManagement", "BilgeAdam.OOP.StockManagement\BilgeAdam.OOP.StockManagement.csproj", "{F96679E0-707F-4A84-B894-AC6EB6F3993A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{94458C60-B326-4D11-8141-351899F7635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94458C60-B326-4D11-8141-351899F7635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94458C60-B326-4D11-8141-351899F7635E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96679E0-707F-4A84-B894-AC6EB6F3993A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96679E0-707F-4A84-B894-AC6EB6F3993A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96679E0-707F-4A84-B894-AC6EB6F3993A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96679E0-707F-4A84-B894-AC6EB6F3993A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
