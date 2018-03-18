@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BilgeAdam.OOP.StockManagement.Models
 {
-    class Tablet : ProductBase
+    public class Tablet : ProductBase
     {
     }
 }

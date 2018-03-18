@@ -37,3 +37,5 @@ C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\obj\Debug\BilgeAdam
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\obj\Debug\BilgeAdam.OOP.WindowsApp.csproj.CoreCompileInputs.cache
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\obj\Debug\BilgeAdam.OOP.WindowsApp.exe
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\obj\Debug\BilgeAdam.OOP.WindowsApp.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\bin\Debug\BilgeAdam.OOP.StockManagement.dll
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.WindowsApp\bin\Debug\BilgeAdam.OOP.StockManagement.pdb
