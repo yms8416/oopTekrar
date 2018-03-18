@@ -7,10 +7,10 @@ namespace BilgeAdam.OOP.GenericsConsole
     {
         static void Main(string[] args)
         {
-            var result = SampleGenerics.Dictionaries();
+            var result = ComplexTypes.SaveStudents();
             foreach (var item in result)
             {
-                Console.WriteLine(item.Value);
+                Console.WriteLine("{0,8} {1} {2}", item.Number, item.FirstName, item.LastName);
             }
             Console.ReadKey();
         }

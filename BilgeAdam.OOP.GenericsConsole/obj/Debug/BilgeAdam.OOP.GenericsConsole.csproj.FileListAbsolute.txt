@@ -7,3 +7,12 @@ C:\YMS8416\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.Gener
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.pdb
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.Generics.dll
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.Generics.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.GenericsConsole.exe.config
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.GenericsConsole.exe
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.GenericsConsole.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.Generics.dll
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\bin\Debug\BilgeAdam.OOP.Generics.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.csprojResolveAssemblyReference.cache
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.csproj.CoreCompileInputs.cache
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.exe
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.GenericsConsole\obj\Debug\BilgeAdam.OOP.GenericsConsole.pdb

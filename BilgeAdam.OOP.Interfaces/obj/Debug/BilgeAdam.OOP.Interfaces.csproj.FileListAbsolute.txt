@@ -8,3 +8,9 @@ C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.csproj.CoreCompileInputs.cache
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.dll
 C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.pdb
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.csprojResolveAssemblyReference.cache
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.csproj.CoreCompileInputs.cache
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.pdb
