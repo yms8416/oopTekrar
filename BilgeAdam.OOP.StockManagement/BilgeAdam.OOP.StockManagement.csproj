@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ProductManager.cs" />
     <Compile Include="Helpers\TextHelper.cs" />
     <Compile Include="IObserver.cs" />
     <Compile Include="Models\Base\ProductBase.cs" />

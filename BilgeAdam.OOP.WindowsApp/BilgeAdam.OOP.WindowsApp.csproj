@@ -58,6 +58,12 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStock.Designer.cs">
+      <DependentUpon>frmStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmKuyruk.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStock.resx">
+      <DependentUpon>frmStock.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,6 +101,10 @@
     <ProjectReference Include="..\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces.csproj">
       <Project>{f5037daa-e836-49fb-9f5a-417fcadeb74f}</Project>
       <Name>BilgeAdam.OOP.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BilgeAdam.OOP.StockManagement\BilgeAdam.OOP.StockManagement.csproj">
+      <Project>{f96679e0-707f-4a84-b894-ac6eb6f3993a}</Project>
+      <Name>BilgeAdam.OOP.StockManagement</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
