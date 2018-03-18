@@ -1,0 +1,10 @@
+C:\Users\Administrator\Documents\YMS-8416\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\Users\Administrator\Documents\YMS-8416\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.pdb
+C:\Users\Administrator\Documents\YMS-8416\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\YMS-8416\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\Users\Administrator\Documents\YMS-8416\BilgeAdam.OOP.Interfaces\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.pdb
+C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\bin\Debug\BilgeAdam.OOP.Interfaces.pdb
+C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.csproj.CoreCompileInputs.cache
+C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.dll
+C:\YMS8416\oopTekrar\BilgeAdam.OOP.Interfaces\obj\Debug\BilgeAdam.OOP.Interfaces.pdb
