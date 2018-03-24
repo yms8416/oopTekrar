@@ -16,7 +16,7 @@ namespace BilgeAdam.OOP.WindowsApp
         public frmStock()
         {
             InitializeComponent();
-            Products = new List<ProductBase>
+            Products = new BindingList<ProductBase>
             {
                 new Carpet{ Name = "Atlas", Price = 150, UnitsInStock = 17 },
                 new Book{ Name = "Zaman Yönetimi", Price = 45, UnitsInStock = 7 },
@@ -30,8 +30,17 @@ namespace BilgeAdam.OOP.WindowsApp
                 new Computer{ Name = "Lenovo", Price = 2500, UnitsInStock = 72 },
             };
         }
-        private List<ProductBase> Products { get; }
-        public ProductBase SelectedItem { get; set; }
+        private BindingList<ProductBase> Products { get; }
+        private ProductBase selectedItem;
+        public ProductBase SelectedItem
+        {
+            get { return selectedItem; }
+            set
+            {
+                selectedItem = value;
+                prgProduct.SelectedObject = selectedItem;
+            }
+        }
         private void frmStock_Load(object sender, EventArgs e)
         {
             dgvProducts.DataSource = Products;
@@ -46,8 +55,7 @@ namespace BilgeAdam.OOP.WindowsApp
             var selected = dgvProducts.SelectedRows[0].DataBoundItem as ProductBase;// DataBoundItem'ı ProductBase e çevir
             if (selected != null)
             {
-                SelectedItem = selected;
-                prgProduct.SelectedObject = selected; 
+                SelectedItem = selected; 
             }
         }
 
@@ -59,7 +67,19 @@ namespace BilgeAdam.OOP.WindowsApp
 
         private void btnNew_Click(object sender, EventArgs e)
         {
+            var selected = cmbType.SelectedItem.ToString();
+            ProductType pt;
+            Enum.TryParse(selected, out pt);
 
+            SelectedItem = ProductHelper.GetProduct(pt);
+
+            //ürün tipine (pt) göre class ı çağır
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Products.Add(SelectedItem);
+            SelectedItem = null;
         }
     }
 }

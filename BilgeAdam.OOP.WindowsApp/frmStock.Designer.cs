@@ -87,6 +87,7 @@
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Kaydet";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // prgProduct
             // 

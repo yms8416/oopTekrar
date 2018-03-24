@@ -1,6 +1,5 @@
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\bin\Debug\BilgeAdam.OOP.StockManagement.dll
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\bin\Debug\BilgeAdam.OOP.StockManagement.pdb
-C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\obj\Debug\BilgeAdam.OOP.StockManagement.csprojResolveAssemblyReference.cache
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\obj\Debug\BilgeAdam.OOP.StockManagement.csproj.CoreCompileInputs.cache
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\obj\Debug\BilgeAdam.OOP.StockManagement.dll
 C:\YMS8416\OOP.Interfaces\oopTekrar\BilgeAdam.OOP.StockManagement\obj\Debug\BilgeAdam.OOP.StockManagement.pdb
