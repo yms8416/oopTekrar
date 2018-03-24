@@ -17,6 +17,14 @@ namespace BilgeAdam.OOP.WindowsApp
         public frmStock()
         {
             InitializeComponent();
+            var p1 = new Phone
+            {
+                Name = "Samsung S9 Plus",
+                Price = 5850,
+                UnitsInStock = 8
+            };
+            p1.OnSell += SamsungS9Satildi; ;
+
             Products = new BindingList<ProductBase>
             {
                 new Carpet{ Name = "Atlas", Price = 150, UnitsInStock = 17 },
@@ -25,12 +33,21 @@ namespace BilgeAdam.OOP.WindowsApp
                 new Phone{ Name = "iPhone", Price = 3200, UnitsInStock = 5 },
                 new Tablet{ Name = "iPad", Price = 2990, UnitsInStock = 12 },
                 new Carpet{ Name = "Koyunlu", Price = 200, UnitsInStock = 75 },
-                new Phone{ Name = "Samsung S9 Plus", Price = 5850, UnitsInStock = 8 },
                 new Book{ Name = "Kaşağı", Price = 20, UnitsInStock = 25 },
                 new Book{ Name = "Sefiller", Price = 45, UnitsInStock = 25 },
                 new Computer{ Name = "Lenovo", Price = 2500, UnitsInStock = 72 },
             };
+
+            Products.Add(p1);
         }
+
+        private void SamsungS9Satildi(object sender, EventArgs e)
+        {
+            //Samsung istatistik verilerini güncelle
+            //BOP
+            //OOP
+        }
+
         private BindingList<ProductBase> Products { get; }
         private ProductBase selectedItem;
         public ProductBase SelectedItem
@@ -60,7 +77,7 @@ namespace BilgeAdam.OOP.WindowsApp
             var selected = dgvProducts.SelectedRows[0].DataBoundItem as ProductBase;// DataBoundItem'ı ProductBase e çevir
             if (selected != null)
             {
-                SelectedItem = selected; 
+                SelectedItem = selected;
             }
         }
 
@@ -82,7 +99,7 @@ namespace BilgeAdam.OOP.WindowsApp
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Products.Add(SelectedItem); 
+            Products.Add(SelectedItem);
             SelectedItem = null;
         }
 

@@ -20,6 +20,11 @@ namespace BilgeAdam.OOP.StockManagement.Helpers
             if (Exists() && CanBeSold(amount))
             {
                 product.UnitsInStock -= amount;
+                product.Sell();
+                if (!Exists())
+                {
+                    product.StockOver(product.Barcode);
+                }
             }
             else
             {
