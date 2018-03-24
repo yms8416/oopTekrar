@@ -35,9 +35,13 @@
             this.prgProduct = new System.Windows.Forms.PropertyGrid();
             this.btnNew = new System.Windows.Forms.Button();
             this.cmbType = new System.Windows.Forms.ComboBox();
+            this.nudAmount = new System.Windows.Forms.NumericUpDown();
+            this.btnAddToStock = new System.Windows.Forms.Button();
+            this.btnSell = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudAmount)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -97,6 +101,7 @@
             this.prgProduct.Size = new System.Drawing.Size(224, 175);
             this.prgProduct.TabIndex = 0;
             this.prgProduct.ToolbarVisible = false;
+            this.prgProduct.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.prgProduct_PropertyValueChanged);
             // 
             // btnNew
             // 
@@ -117,11 +122,41 @@
             this.cmbType.Size = new System.Drawing.Size(148, 21);
             this.cmbType.TabIndex = 5;
             // 
+            // nudAmount
+            // 
+            this.nudAmount.Location = new System.Drawing.Point(12, 274);
+            this.nudAmount.Name = "nudAmount";
+            this.nudAmount.Size = new System.Drawing.Size(148, 22);
+            this.nudAmount.TabIndex = 6;
+            // 
+            // btnAddToStock
+            // 
+            this.btnAddToStock.Location = new System.Drawing.Point(166, 274);
+            this.btnAddToStock.Name = "btnAddToStock";
+            this.btnAddToStock.Size = new System.Drawing.Size(106, 23);
+            this.btnAddToStock.TabIndex = 7;
+            this.btnAddToStock.Text = "Stoğa Ekle";
+            this.btnAddToStock.UseVisualStyleBackColor = true;
+            this.btnAddToStock.Click += new System.EventHandler(this.btnAddToStock_Click);
+            // 
+            // btnSell
+            // 
+            this.btnSell.Location = new System.Drawing.Point(166, 303);
+            this.btnSell.Name = "btnSell";
+            this.btnSell.Size = new System.Drawing.Size(106, 23);
+            this.btnSell.TabIndex = 7;
+            this.btnSell.Text = "Sat";
+            this.btnSell.UseVisualStyleBackColor = true;
+            this.btnSell.Click += new System.EventHandler(this.btnSell_Click);
+            // 
             // frmStock
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(806, 293);
+            this.ClientSize = new System.Drawing.Size(806, 337);
+            this.Controls.Add(this.btnSell);
+            this.Controls.Add(this.btnAddToStock);
+            this.Controls.Add(this.nudAmount);
             this.Controls.Add(this.cmbType);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.groupBox2);
@@ -136,6 +171,7 @@
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nudAmount)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,5 +185,8 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnNew;
         private System.Windows.Forms.ComboBox cmbType;
+        private System.Windows.Forms.NumericUpDown nudAmount;
+        private System.Windows.Forms.Button btnAddToStock;
+        private System.Windows.Forms.Button btnSell;
     }
 }

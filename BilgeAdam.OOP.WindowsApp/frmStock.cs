@@ -1,4 +1,5 @@
-﻿using BilgeAdam.OOP.StockManagement.Models;
+﻿using BilgeAdam.OOP.StockManagement.Helpers;
+using BilgeAdam.OOP.StockManagement.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -39,12 +40,16 @@ namespace BilgeAdam.OOP.WindowsApp
             {
                 selectedItem = value;
                 prgProduct.SelectedObject = selectedItem;
+                btnSell.Enabled = btnAddToStock.Enabled = true;
             }
         }
         private void frmStock_Load(object sender, EventArgs e)
         {
             dgvProducts.DataSource = Products;
             cmbType.DataSource = GetProductTypes();
+            btnAddToStock.Enabled = false;
+            btnSell.Enabled = false;
+            dgvProducts.ClearSelection();
         }
         private void dgvProducts_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -72,14 +77,48 @@ namespace BilgeAdam.OOP.WindowsApp
             Enum.TryParse(selected, out pt);
 
             SelectedItem = ProductHelper.GetProduct(pt);
-
             //ürün tipine (pt) göre class ı çağır
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Products.Add(SelectedItem);
+            Products.Add(SelectedItem); 
             SelectedItem = null;
+        }
+
+        private void prgProduct_PropertyValueChanged(object s, PropertyValueChangedEventArgs e)
+        {
+            //2147982877
+
+            //long a = 5;
+            //int b = (int)a;
+
+            //int c = 8;
+            //long d = c;
+
+            var oldValue = (int)e.OldValue;
+            var newValue = (int)e.ChangedItem.Value;
+            var diff = newValue - oldValue;
+            //TODO: doğrudan erişerek de yapılabilir
+        }
+
+        private void btnAddToStock_Click(object sender, EventArgs e)
+        {
+            var pm = new ProductManager<ProductBase>(SelectedItem);
+            pm.AddToStock((int)nudAmount.Value);
+            RefreshControls();
+        }
+        private void btnSell_Click(object sender, EventArgs e)
+        {
+            var pm = new ProductManager<ProductBase>(SelectedItem);
+            pm.Sell((int)nudAmount.Value);
+            RefreshControls();
+        }
+        private void RefreshControls()
+        {
+            dgvProducts.Refresh();
+            prgProduct.Refresh();
+            //daha fazla kod
         }
     }
 }
