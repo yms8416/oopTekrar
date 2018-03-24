@@ -47,6 +47,7 @@
     <Compile Include="Models\Book.cs" />
     <Compile Include="Models\Carpet.cs" />
     <Compile Include="Models\Computer.cs" />
+    <Compile Include="Models\GamingConsole.cs" />
     <Compile Include="Models\Phone.cs" />
     <Compile Include="Models\Tablet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

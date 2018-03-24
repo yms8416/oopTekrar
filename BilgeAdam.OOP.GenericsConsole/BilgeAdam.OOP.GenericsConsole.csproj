@@ -53,6 +53,10 @@
       <Project>{ec920576-8f37-4298-b670-00b2f682cc06}</Project>
       <Name>BilgeAdam.OOP.Generics</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BilgeAdam.OOP.StockManagement\BilgeAdam.OOP.StockManagement.csproj">
+      <Project>{f96679e0-707f-4a84-b894-ac6eb6f3993a}</Project>
+      <Name>BilgeAdam.OOP.StockManagement</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

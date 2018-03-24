@@ -1,5 +1,7 @@
 ﻿using BilgeAdam.OOP.Interfaces.Exceptions;
 using BilgeAdam.OOP.Interfaces.Models;
+using BilgeAdam.OOP.StockManagement.Helpers;
+using BilgeAdam.OOP.StockManagement.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

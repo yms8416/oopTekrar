@@ -56,5 +56,10 @@ namespace BilgeAdam.OOP.WindowsApp
             var list = Enum.GetNames(typeof(ProductType)).ToList();
             return list;
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

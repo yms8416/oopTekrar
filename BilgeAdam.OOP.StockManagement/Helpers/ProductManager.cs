@@ -17,19 +17,24 @@ namespace BilgeAdam.OOP.StockManagement.Helpers
 
         public void Sell(int amount)
         {
-            if (Exists())
+            if (Exists() && CanBeSold(amount))
             {
                 product.UnitsInStock -= amount;
             }
             else
             {
-                throw new Exception($"{product.Barcode} kodlu ürün stokta yeteli miktarda olmadığından satılamadı");
+                throw new Exception($"{product.Barcode} kodlu ürün stokta yeterli miktarda olmadığından satılamadı");
             }
         }
 
         public bool Exists()
         {
             return product.UnitsInStock > 0;
+        }
+
+        public bool CanBeSold(int amount)
+        {
+            return product.UnitsInStock >= amount;
         }
     }
 }

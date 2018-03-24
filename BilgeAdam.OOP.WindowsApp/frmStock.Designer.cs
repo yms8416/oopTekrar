@@ -31,9 +31,9 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvProducts = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnSave = new System.Windows.Forms.Button();
             this.prgProduct = new System.Windows.Forms.PropertyGrid();
             this.btnNew = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
             this.cmbType = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
@@ -79,6 +79,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Seçili Ürün";
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(105, 198);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(125, 23);
+            this.btnSave.TabIndex = 1;
+            this.btnSave.Text = "Kaydet";
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
             // prgProduct
             // 
             this.prgProduct.HelpVisible = false;
@@ -96,15 +105,7 @@
             this.btnNew.TabIndex = 4;
             this.btnNew.Text = "Yeni Ürün";
             this.btnNew.UseVisualStyleBackColor = true;
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(105, 198);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(125, 23);
-            this.btnSave.TabIndex = 1;
-            this.btnSave.Text = "Kaydet";
-            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // cmbType
             // 
